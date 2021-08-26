@@ -974,6 +974,12 @@ h4.o_onboarding_step_title.mt16 a {
   border-radius: 7px !important;
 }
 
-.o_list_view .o_list_table tbody > tr > td:not(.o_list_record_selector):not(.o_handle_cell):not(.o_list_button){
-  text-overflow: unset !important;
+th.o_column_sortable {
+  max-width: 200px !important;
+  width: 200px !important;
+}
+
+th.o_monetary_cell.o_list_number_th {
+  max-width: 150px !important;
+  width: 150px !important;
 }
