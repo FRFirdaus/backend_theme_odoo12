@@ -983,3 +983,9 @@ th.o_monetary_cell.o_list_number_th {
   max-width: 200px !important;
   width: 200px !important;
 }
+
+@media (max-width: 767.98px) {
+  .o_main_navbar .o_menu_sections.show {
+    top: 70px !important
+  }
+}
