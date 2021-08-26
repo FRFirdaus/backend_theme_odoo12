@@ -973,3 +973,7 @@ h4.o_onboarding_step_title.mt16 a {
 .modal-content{
   border-radius: 7px !important;
 }
+
+.o_list_view .o_list_table tbody > tr > td:not(.o_list_record_selector):not(.o_handle_cell):not(.o_list_button){
+  text-overflow: unset !important;
+}
