@@ -974,14 +974,24 @@ h4.o_onboarding_step_title.mt16 a {
   border-radius: 7px !important;
 }
 
-th.o_column_sortable {
-  max-width: 250px !important;
-  width: 250px !important;
-}
-
-th.o_monetary_cell.o_list_number_th {
+.o_list_view > .table-responsive > .o_list_table > thead > tr > th.o_column_sortable {
   max-width: 200px !important;
   width: 200px !important;
+}
+
+.o_field_one2many > .o_list_view > .table-responsive > .o_list_table > thead > tr > th.o_column_sortable {
+  max-width: 150px !important;
+  width: 150px !important;
+}
+
+.o_list_view > .table-responsive > .o_list_table > thead > tr > th.o_monetary_cell.o_list_number_th {
+  max-width: 150px !important;
+  width: 150px !important;
+}
+
+td.o_data_cell.o_field_cell.o_readonly_modifier {
+  max-width: 40px !important;
+  width: 40px !important;
 }
 
 @media (max-width: 767.98px) {
