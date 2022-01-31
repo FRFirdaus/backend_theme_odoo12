@@ -343,7 +343,11 @@ li.o_user_menu a.dropdown-toggle {
 
 .o_searchview .o_searchview_input {
   border: none !important;
-  padding: 4px 0 0 0;
+  padding: 4px 8px 0 8px !important;
+}
+
+.o_calendar_filter > h5 {
+  margin-bottom: 8px !important;
 }
 
 .o_searchview {
@@ -527,15 +531,17 @@ span.o_searchview_facet_label {
 /*//Controll panel*/
 .o_calendar_container .o_calendar_sidebar_container .ui-datepicker table .ui-state-active {
   background: none;
+  border-radius: 6px !important;
   background-color: #4336fb;
-  color: white;
+  color: white !important;
 }
 
 .o_calendar_container .o_calendar_sidebar_container .ui-datepicker table .ui-state-default:hover {
   background: none;
+  border-radius: 6px !important;
   background-color: rgb(133, 53, 252);
   border-color: #7C7BAD;
-  color: white;
+  color: white !important;
 }
 
 /*form header*/
